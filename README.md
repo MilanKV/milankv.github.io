@@ -1,14 +1,21 @@
 # vehicle-selector
+## Objective
+The goal of this assignment is to create a dynamic dropdown interface using Vue.js. The dropdowns allow users to select a Year, Make, and Model of vehicles based on data retrieved from a third-party API. The selection flow should be as follows:
 
-This template should help get you started developing with Vue 3 in Vite.
+1. **Year Selection**: User selects a Year from a list of available years.
+2. **Make Selection**: Once a Year is selected, the Make dropdown is populated with the makes available for that Year.
+3. **Model Selection**: After selecting a Make, the Model dropdown is populated with models available for the selected Year and Make.
 
-## Recommended IDE Setup
+## Features
+- **Dynamic Dropdowns:** Dropdowns for Year, Make, and Model that populate based on prior selections.
+- **Data Fetching:** API calls are made using Axios to fetch data for Years, Makes, and Models.
+- **State Management:** Pinia is used for state management to handle the selected Year, Make, and Model across the application.
+- **Error Handling:** Proper error handling in case of failed API requests.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Technologies & Tools
+- **Vue.js**
+- **Axios**
+- **Pinia**
 
 ## Project Setup
 
